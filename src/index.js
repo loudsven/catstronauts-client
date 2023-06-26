@@ -5,7 +5,7 @@ import GlobalStyles from './styles'
 import Pages from './pages'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
+  uri: 'https://catstronauts-server-production-629f.up.railway.app',
   cache: new InMemoryCache(),
 })
 
